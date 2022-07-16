@@ -9,4 +9,8 @@ This is a Firefox default webpages clone written in HTML, CSS and JS...
 + Error page
 + New Private Browsing Tab
 
+## Preview:
++ New Tab:
+[](https://i.snipboard.io/LEf3rH.jpg)
+
 Written and maintained by @rhpo ❤️.
