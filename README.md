@@ -24,4 +24,4 @@ __NOTE:__ Please open this in the **Firefox** browser! Otherwise Images won't lo
 
 <br />
 
->> Written and maintained by @rhpo ❤️.
+> Written and maintained by @rhpo ❤️.
