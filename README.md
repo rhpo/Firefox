@@ -22,4 +22,5 @@ This is a Firefox default webpages clone written in HTML, CSS and JS...
 __NOTE:__ Please open this in the **Firefox** browser! Otherwise Images won't load because they're loaded from the Firefox custom Protocol (chrome://...)
 
 
+<br>
 > Written and maintained by @rhpo ❤️.
