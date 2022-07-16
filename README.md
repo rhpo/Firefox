@@ -19,4 +19,5 @@ This is a Firefox default webpages clone written in HTML, CSS and JS...
 + Error Page:
 <img src="https://i.ibb.co/jMDp3fh/2022-07-16-15-07-39-Trim-1.gif" alt="New Tab" />
 
+__NOTE:__ Please open this in the **Firefox** browser! Otherwise Images won't load because they're loaded from the Firefox custom Protocol (chrome://...)
 Written and maintained by @rhpo ❤️.
