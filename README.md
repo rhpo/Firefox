@@ -1,5 +1,7 @@
-# firefox
-A firefox default webpages clones written in HTML, CSS and JS...
+# Firefox: Clone
+All Firefox default webpages in one repository.
+
+### A firefox default webpages clone written in HTML, CSS and JS...
 
 ## This repository contains all default firefox pages like:
 + New Tab
