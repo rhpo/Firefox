@@ -5,9 +5,9 @@ All Firefox default webpages in one repository.
 This is a Firefox default webpages clone written in HTML, CSS and JS...
 
 ## This repository contains all default firefox pages like:
-+ New Tab
-+ Error page
-+ New Private Browsing Tab
++ ➕ New Tab
++ 🕵🏻 New Private Browsing Tab
++ ❗ Error page
 
 ## Preview:
 + New Tab:
