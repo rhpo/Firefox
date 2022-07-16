@@ -1,0 +1,79 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: rgb(28, 27, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    color: rgb(251, 251, 254);
+    font: 400 16px Segoe UI;
+    font-weight: lighter;
+}
+
+strong {
+    font-weight: bold;
+}
+
+h1 {
+    font: 400 33px Segoe UI;
+    font-weight: lighter;
+    margin: 0;
+}
+
+p {
+    margin: 25px 0;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 8px;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+button {
+    align-self: flex-end;
+    background-color: rgb(0, 221, 255);
+    color: rgb(28, 27, 34);
+    font-weight: 600;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+button:hover {
+    filter: brightness(1.1);
+}
+
+button:active {
+    background-color: rgb(116, 236, 255);
+}
+
+.main {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-content: space-between;
+    max-width: 712px;
+    height: 300px;
+}

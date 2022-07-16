@@ -1,0 +1,211 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(43, 42, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+*:focus {
+    outline: none;
+    border: 0;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 235px;
+}
+
+.svg-text {
+    background: url("chrome://branding/content/firefox-wordmark.svg") no-repeat center center;
+    background-size: auto;
+    background-size: 130px;
+    -moz-context-properties: fill;
+    display: inline-block;
+    fill: rgba(251, 251, 254, 1);
+    height: 82px;
+    margin-inline-start: 5px;
+    width: 250px;
+    filter: brightness(0) invert();
+}
+
+.search-box {
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    background-color: #42414d;
+    width: 100%;
+    max-width: 600px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    cursor: text;
+}
+
+.search {
+    width: -moz-available;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    font-size: inherit;
+    padding: 13px;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-img {
+    width: 25px;
+}
+
+.search-box:focus-within {
+    border: 1px solid #00ddff;
+}
+
+.suggestions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+}
+
+.card:hover {
+    background: rgb(54, 53, 61);
+}
+
+.name {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.card-box {
+    border-radius: 8px;
+    background-color: #42414d;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.card-box img {
+    width: 50px;
+    height: 50px;
+}
+
+.card>button {
+    background-image: url("chrome://global/skin/icons/more.svg");
+    background-repeat: no-repeat;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    fill: white;
+    -moz-context-properties: fill;
+    height: 20px;
+    width: 20px;
+    inset-inline-end: -9px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background-color: transparent;
+    filter: invert();
+    opacity: 0;
+    transition: opacity .3s;
+    margin: 3px;
+}
+
+.card:hover button {
+    opacity: 1;
+}
+
+.card :focus-within .card-box {
+    border: 1px solid red;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    max-height: 375px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    flex-direction: column;
+}
+
+.settings {
+    position: fixed;
+    top: 16px;
+    inset-inline-end: 16px;
+    z-index: 1000;
+    -moz-context-properties: fill;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.gear {
+    background-image: url("chrome://global/skin/icons/settings.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    vertical-align: middle;
+    height: 16px;
+    width: 16px;
+    margin: 10px;
+    filter: brightness(0) invert();
+}
+
+.settings:hover {
+    background-color: rgb(54, 53, 61);
+}
+
+.card :focus .card-box {
+    border: 1px solid #00ddff;
+}
