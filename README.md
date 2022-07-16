@@ -8,4 +8,4 @@ All Firefox default webpages in one repository.
 + Error page
 + New Private Browsing Tab
 
-Written and maintained by @rhpo.
+Written and maintained by @rhpo ❤️.
