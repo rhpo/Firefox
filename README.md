@@ -11,6 +11,6 @@ This is a Firefox default webpages clone written in HTML, CSS and JS...
 
 ## Preview:
 + New Tab:
-<img src="https://i.snipboard.io/LEf3rH.jpg" alt="New Tab" />
+<img src="https://i.ibb.co/MpBDd9r/2022-07-16-13-45-41-Trim.gif" alt="New Tab" />
 
 Written and maintained by @rhpo ❤️.
