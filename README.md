@@ -1,4 +1,4 @@
-# Firefox: Clone
+# 🦊 Firefox: Clone
 All Firefox default webpages in one repository.
 
 ### A firefox default webpages clone written in HTML, CSS and JS...
