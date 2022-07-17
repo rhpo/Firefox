@@ -10,13 +10,13 @@ This is a Firefox default webpages clone written in HTML, CSS and JS...
 + ❗ Error page
 
 ## Preview:
-+ [New Tab:](https://rhpo.github.io/Firefox/new-tab/)
++ New Tab [(DEMO)](https://rhpo.github.io/Firefox/new-tab/):
 <img src="https://i.ibb.co/MpBDd9r/2022-07-16-13-45-41-Trim.gif" alt="New Tab" />
 
-+ [Private Browsing:](https://rhpo.github.io/Firefox/new-private-tab/)
++ Private Browsing [(DEMO)](https://rhpo.github.io/Firefox/new-private-tab/):
 <img src="https://i.ibb.co/LC0PNYz/2022-07-16-15-01-13-Trim.gif" alt="New Tab" />
 
-+ [Error Page:](https://rhpo.github.io/Firefox/error-page/)
++ Error Page [(DEMO)](https://rhpo.github.io/Firefox/error-page/):
 <img src="https://i.ibb.co/jMDp3fh/2022-07-16-15-07-39-Trim-1.gif" alt="New Tab" />
 
 __NOTE:__ Please open this in the **Firefox** browser! Otherwise Images won't load because they're loaded from the Firefox custom Protocol (chrome://...)
